@@ -1,0 +1,415 @@
+body {
+    background-image: url('../images/Ноme-App-Wallpaper-Gradient-Light.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    padding: 5px 15px 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #69ff8a;
+    box-shadow: 0 0 15px rgba(45, 247, 45, 0.781);
+    color: black;
+}
+
+h2 {
+    margin: 10px 20% 20px 20% !important;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 550;
+    border-radius: 15px;
+    background-color: #69ff8a;
+    box-shadow: 0 0 15px rgba(45, 247, 45, 0.781);
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3, h6 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: black;
+}
+
+h4 {
+    text-align: center;
+    color: black;
+    margin: auto 15%;
+    margin-bottom: 0;
+    padding: 5px;
+    padding-top: 10px;
+    border-radius: 100px;
+    background-color: #69ff8a;
+    box-shadow: 0 0 15px rgba(45, 247, 45, 0.781);
+}
+
+a {
+    text-decoration: none !important;
+    padding: 5px 5px 8px 5px;
+    background-color: #aceeba;
+    border-radius: 5px;
+    color: rgb(70, 70, 70) !important;
+    transition: all .07s ease-in-out;
+}
+
+a:hover {
+    font-size: 16.5px;
+    background-color: #69ff8a;
+    color: black;
+    box-shadow: 0 0 15px rgba(45, 247, 45, 0.781);
+    transform: scale(1.05);
+}
+
+p {
+    text-align: center;
+    color: black;
+    margin: 40px 20px ;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.back-color {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.self-container { 
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    align-items: center;
+}
+
+header h1 {
+    margin: 5px 20% 5px 0 !important;
+    padding: 5px 15px 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+.link-logo {
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 30%;
+    transition: all 0.07s ease-in-out;
+}
+
+.link-logo:hover {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 80px;
+    height: 60px;
+}
+
+.main {
+    display: flex;
+    border-radius: 20px;
+    background-color: #e5fad9;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.my-photo {
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.466);
+}
+
+.description-block {
+    height: 500px;
+    align-content: center;
+}
+
+.title-in-description-block {
+    padding: 5px;
+    padding-top: 10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    font-size: 26px;
+}
+
+.about-me-block {
+    border-radius: 20px;
+    background-color: #e5fad9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.more-info-about-me {
+    text-align: justify;
+    margin: 20px auto;
+    word-spacing: 3px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.link-youtube {
+    font-size: 25px;
+    padding: 1px;
+    padding-top: 4px;
+    margin-right: 7px;
+    margin-left: 7px;
+    background-color: rgb(255, 0, 0);
+    color: white !important;
+}
+
+.link-youtube:hover {
+    font-size: 25px;
+    padding: 4px;
+    padding-top: 7px;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: rgb(255, 0, 0);
+    color: white !important;
+}
+
+.youtube-player-container {
+    border-radius: 20px;
+    background-color: #e5fad9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 720px;
+    height: 405px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.466);
+}
+
+.music-title {
+    margin: 10px 28% 0 28% !important;
+}
+
+audio {
+    width: 400px;
+    margin: 5px auto 0 23%;
+    border-radius: 100px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.466);
+}
+
+.form-container { 
+    border-radius: 20px;
+    background-color: #e5fad9; 
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #e5fad9;
+    padding: 20px;
+}
+
+.form-control {
+    border: solid !important;
+    border-width: 1px !important;
+    border-color: rgb(105, 107, 247) !important;
+    background-color: rgba(243, 243, 243, 0.555);
+}
+
+.form-check-label {
+    line-height: 16.5px;
+}
+
+.btn {
+    margin: auto 42%;
+    color: black;
+    background-color: #69ff8a;
+    transition: all 0.07s ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #4dbb65;
+}
+
+.container-footer-image {
+    padding: 0 !important;
+    background-color: grey;
+}
+
+.container-footer-image:hover {
+    background-color: rgb(44, 44, 44);
+    transition: 0.5s;
+}
+
+.my-4 {
+    margin: 0 !important;
+}
+
+.footer-image {
+    padding: 0;
+    width: 60px;
+    height: 45px;
+}
+
+.container-footer-list-image {
+    padding-top: 12px;
+    padding-bottom: 13px !important;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(105, 107, 247, 0);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.container-footer-list-image:hover {
+    border-radius: 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(105, 107, 247);
+    background-color: #E0BBE4;
+}
+
+.footer-list-image {
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 872px){
+    .link-logo {
+        margin-left: 10%;
+    }
+
+    header h1 {
+        margin-right: 10% !important; 
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    h2 {
+        margin: 10px 10% 20px 10% !important;
+    }
+
+    h4, .music-title {
+        margin: 10px 20% 0 20% !important;
+        font-size: 20px;
+    }
+
+    .description-block {
+        height: auto;
+    }
+
+    .title-in-description-block {
+        font-size: 18px;
+    }
+
+    .self-container {
+        max-width: 80%;
+    }
+
+    .my-photo {
+        width: 190px;
+        height: 300px;
+    }
+    iframe {
+        width: 100%;
+        height: 315px;
+    }
+
+    audio {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .agree-checkbox {
+        font-size: 11px;
+        
+    }
+
+    .text-body-secondary {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .main {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-photo {
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+    }
+
+    iframe {
+        width: 100%;
+        height: 25vh;
+    }
+
+    h4, .music-title {
+        margin: 10px 10% 0 10% !important;
+        font-size: 16px;
+    }
+
+    .btn {
+        margin: auto 34%;
+    }
+}
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    .title-in-description-block {
+        margin: 0;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 14px;
+        border-radius: 12px;
+    }
+
+    .link-youtube, .link-youtube:hover {
+        font-size: 15px;
+    }
+
+    .more-info-about-me{
+        font-size: 14px;
+    }
+
+    h4, .music-title {
+        font-size: 14px;
+        margin: 10px 10% 0 10% !important;
+
+    }
+
+    audio {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .agree-checkbox {
+        font-size: 8px;
+        
+    }
+
+}
